@@ -1,0 +1,30 @@
+h1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size:larger;
+  font-family: 'Courier New', Courier, monospace;
+}
+.vertical-menu {
+  width: 80%;
+  margin: auto;
+}
+
+.vertical-menu a {
+  width: 100%;
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border: 1px white solid;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
