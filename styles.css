@@ -27,7 +27,7 @@ h2 {
   margin: auto;
   background-color: #ccc;
   grid-template-areas: 'header header';
-  border: 1px solid black;
+  border: 1px hidden black;
   border-radius: 5px;
   padding: 5px;
   grid-gap: 1px;
@@ -39,7 +39,7 @@ h2 {
   margin: auto;
   background-color: #ccc;
   grid-template-columns: auto;
-  border: 1px solid black;
+  border: 1px hidden black;
   border-radius: 5px;
   margin-top: 5px;
   padding: 5px;
@@ -69,6 +69,9 @@ a {
 img {
   width: 50px;
   border-radius: 5px;
-
 }
 
+@media (min-width: 800px) {
+  .grid-tracks {width: 50%;}
+  .grid-links {width: 50%;}
+}
