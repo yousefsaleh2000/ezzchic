@@ -13,6 +13,10 @@ h1 {
   text-align: center;
 }
 
+.ramadan {
+    font-family: sofia;
+}
+
 h2 {
   text-align: center;
 }
@@ -69,4 +73,5 @@ a {
 img {
   width: 50px;
   border-radius: 5px;
+
 }
